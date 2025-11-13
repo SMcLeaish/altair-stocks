@@ -1,0 +1,15 @@
+[project]
+name = "altair-stocks"
+version = "0.1.0"
+description = "Visualizes stock prices using Altair and the yfinance api"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "altair>=6.0.0",
+    "polars>=1.35.2",
+    "pyarrow>=22.0.0",
+    "yfinance>=0.2.66",
+]
+
+[tool.uv]
+package-dir = "src"
