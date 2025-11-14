@@ -10,6 +10,3 @@ dependencies = [
     "pyarrow>=22.0.0",
     "yfinance>=0.2.66",
 ]
-
-[tool.uv]
-package-dir = "src"
